@@ -1,0 +1,6 @@
+{
+	"editor.defaultFormatter": "dprint.dprint",
+	"[astro]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	}
+}

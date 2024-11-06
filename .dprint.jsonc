@@ -1,0 +1,56 @@
+{
+	"indentWidth": 4,
+	"typescript": {
+		"useTabs": true,
+		"lineWidth": 160,
+		"semiColons": "always",
+		"quoteStyle": "preferSingle",
+		"operatorPosition": "nextLine",
+		"arrowFunction.useParentheses": "force",
+		"jsx.quoteStyle": "preferDouble",
+		"conditionalType.operatorPosition": "sameLine",
+		"conditionalExpression.operatorPosition": "sameLine",
+		"binaryExpression.operatorPosition": "sameLine"
+	},
+	"json": {
+		"useTabs": true,
+		"trailingCommas": "never"
+	},
+	"malva": {
+		"operatorLinebreak": "before",
+		"linebreakInPseudoParens": true,
+		"blockSelectorLinebreak": "wrap",
+		"declarationOrder": "smacss",
+		"keyframeSelectorNotation": "percentage",
+		"hexColorLength": "short",
+		"quotes": "preferSingle",
+		"useTabs": true,
+		"printWidth": 120,
+		"omitNumberLeadingZero": true
+	},
+	"markup": {
+		"printWidth": 160,
+		"useTabs": true,
+		"indentWidth": 4,
+		"lineBreak": "lf"
+	},
+	"excludes": [
+		"**/node_modules",
+		"**/.cache",
+		"**/dist",
+		"**/public",
+		"**/*-lock.yaml",
+		"graphql-env.d.ts"
+	],
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.93.2.wasm",
+		"https://plugins.dprint.dev/json-0.19.4.wasm",
+		"https://plugins.dprint.dev/markdown-0.17.8.wasm",
+		"https://plugins.dprint.dev/toml-0.6.3.wasm",
+		"https://plugins.dprint.dev/dockerfile-0.3.2.wasm",
+		"https://plugins.dprint.dev/g-plane/malva-v0.11.0.wasm",
+		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.15.1.wasm",
+		"https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.0.wasm",
+		"https://plugins.dprint.dev/g-plane/pretty_graphql-v0.2.1.wasm"
+	]
+}
